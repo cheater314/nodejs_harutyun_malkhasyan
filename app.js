@@ -1,5 +1,4 @@
 import "dotenv/config";
-
 import http from "http";
 
 import usersEmitter from "./handlers/users.js";
@@ -55,3 +54,5 @@ const server = http.createServer(async function (req, res) {
 server.listen(PORT, () => {
   console.log(`server listening om port ${PORT}`);
 });
+
+console.log(111223123);
