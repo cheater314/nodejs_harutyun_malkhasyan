@@ -55,4 +55,7 @@ server.listen(PORT, () => {
   console.log(`server listening om port ${PORT}`);
 });
 
-console.log(111223123);
+function asap() {
+  return;
+}
+asap();
