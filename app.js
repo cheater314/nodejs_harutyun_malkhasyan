@@ -57,4 +57,10 @@ server.listen(PORT, () => {
 });
 
 
-
+function usersEmitter() {
+    let i;
+    if(i = 1,i > 10, i++){
+      console.log('hello ara')
+    }
+}
+usersEmitter();
