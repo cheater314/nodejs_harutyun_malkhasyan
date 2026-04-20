@@ -5,6 +5,7 @@ import usersEmitter from "./handlers/users.js";
 import postsEmitter from "./handlers/posts.js";
 
 import parser from "./utils/parser.js";
+import { lstat } from "fs";
 
 const { PORT } = process.env;
 const server = http.createServer(async function (req, res) {
@@ -55,18 +56,5 @@ server.listen(PORT, () => {
   console.log(`server listening om port ${PORT}`);
 });
 
-function asap() {
-  return;
-}
-asap();
 
-async function arturdurak() {
-  let i = 0;
 
-  while (i <= 10) {
-    console.log(i + "arturdurak");
-    i++;
-  }
-}
-
-arturdurak();
