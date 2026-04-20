@@ -52,24 +52,15 @@ const server = http.createServer(async function (req, res) {
   }
 });
 
-
 server.listen(PORT, () => {
   console.log(`server listening om port ${PORT}`);
 });
 
-function asap() {
-  return;
+
+function usersEmitter() {
+    let i;
+    if(i = 1,i > 10, i++){
+      console.log('hello ara')
+    }
 }
-asap();
-
-
-function aabbb(){
-  console.log("111")
-}
-
-aabbb()
-async function arturdurak() {
-  let i = 0;
-
-
-arturdurak();
+usersEmitter();
