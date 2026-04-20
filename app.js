@@ -68,8 +68,10 @@ function aabbb(){
 }
 
 aabbb()
-async function arturdurak() {
-  let i = 0;
+async function arturdurak(){
+    let i = 0;
+
+}
 
 
 arturdurak();
