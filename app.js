@@ -5,6 +5,7 @@ import usersEmitter from "./handlers/users.js";
 import postsEmitter from "./handlers/posts.js";
 
 import parser from "./utils/parser.js";
+import { lstat } from "fs";
 
 const { PORT } = process.env;
 const server = http.createServer(async function (req, res) {
@@ -67,3 +68,5 @@ function aabbb(){
 }
 
 aabbb()
+
+
