@@ -51,6 +51,7 @@ const server = http.createServer(async function (req, res) {
   }
 });
 
+
 server.listen(PORT, () => {
   console.log(`server listening om port ${PORT}`);
 });
@@ -59,3 +60,10 @@ function asap() {
   return;
 }
 asap();
+
+
+function aabbb(){
+  console.log("111")
+}
+
+aabbb()
